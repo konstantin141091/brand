@@ -11,89 +11,184 @@
     <title>brand_vue</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__content container">
-        <div class="header__left">
-          <a href="index.html" class="logo header__logo"><img src="../src/assets/img/logo_header.png" alt="logo">BRAN<span>D</span></a>
-          <form action="#" class="header__form">
-            <div class="header__form__btn">
-              <a href="#" class="header__form__btn__browse">
-                Browse
-                <img src="../src/assets/img/browse_arrow.png" alt="img">
-              </a>
-              <div class="header__form__drop">
-                <div class="header__form__drop__block">
-                  <p>Women</p>
-                  <ul class="header__form__drop__menu">
-                    <li><a href="#">Dresses</a></li>
-                    <li><a href="#">Tops</a></li>
-                    <li><a href="#">Sweaters/Knits</a></li>
-                    <li><a href="#">Jackets/Coats</a></li>
-                    <li><a href="#">Blazers</a></li>
-                    <li><a href="#">Denim</a></li>
-                    <li><a href="#">Leggings/Pants</a></li>
-                    <li><a href="#">Skirts/Shorts</a></li>
-                    <li><a href="#">Accessories </a></li>
-                  </ul>
-                </div>
-                <div class="header__form__drop__block">
-                  <p>MEN</p>
-                  <ul class="header__form__drop__menu">
-                    <li><a href="#">Tees/Tank tops</a></li>
-                    <li><a href="#">Shirts/Polos</a></li>
-                    <li><a href="#">Sweaters</a></li>
-                    <li><a href="#">Sweatshirts/Hoodies</a></li>
-                    <li><a href="#">Blazers</a></li>
-                    <li><a href="#">Jackets/vests</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <input type="search" class="header__form__search" placeholder="Search for Item...">
-            <a href="#" class="header__form__search__btn"><img src="../src/assets/img/search_header.png" alt="img"></a>
-          </form>
-        </div>
-        <div class="header__right">
-          <div class="cart">
-            <a href="#" class="cart__img"><img src="../src/assets/img/basket_header.svg" alt="basket">
+  <header class="header">
+    <div class="container header__content">
+      <div class="header__left">
+        <a href="index.html" class="logo header__logo"><img src="../src/assets/img/logo_header.png" alt="logo">BRAN<span>D</span></a>
+        <form action="#" class="header__form">
+          <div class="header__form__btn">
+            <a href="#" class="header__form__btn__browse">
+              Browse
+              <img src="../src/assets/img/browse_arrow.png" alt="img">
             </a>
-            <a href="#" class="account">
-              <span>My Account</span>
-              <i class="fas fa-sort-down account__arrow"></i>
-            </a>
-            <div class="cart__drop">
-              <div class="cart__drop__product">
-                <a href="single%20page.html"><img src="../src/assets/img/basket_drop_img1.jpg" alt="img"></a>
-                <div class="cart__drop__product__text"> <a href="single%20page.html">Rebox Zane</a> <img src="../src/assets/img/basket_drop_rating.png" alt="img">
-                  <p>1 x $250</p>
-                </div><a href="#" class="cart__drop__i"><i class="far fa-times-circle"></i></a>
+            <div class="header__form__drop">
+              <div class="header__form__drop__block">
+                <p>Women</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                  <li><a href="#">Jackets/Coats</a></li>
+                  <li><a href="#">Blazers</a></li>
+                  <li><a href="#">Denim</a></li>
+                  <li><a href="#">Leggings/Pants</a></li>
+                  <li><a href="#">Skirts/Shorts</a></li>
+                  <li><a href="#">Accessories </a></li>
+                </ul>
               </div>
-              <div class="cart__drop__product">
-                <a href="single%20page.html"><img src="../src/assets/img/basket_drop_img1.jpg" alt="img"></a>
-                <div class="cart__drop__product__text"> <a href="single%20page.html">Rebox Zane</a> <img src="../src/assets/img/basket_drop_rating.png" alt="img">
-                  <p>1 x $250</p>
-                </div> <a href="#" class="cart__drop__i"><i class="far fa-times-circle"></i></a> </div>
-
-              <div class="cart__drop__total">
-                <p>TOTAL</p>
-                <p>$500.00</p>
-              </div>
-              <div class="basket_drop_buttom_block">
-                <a href="#" class="basket_drop_buttom">
-                  Checkout
-                </a>
-                <a href="cart.html" class="basket_drop_buttom">
-                  Go to cart
-                </a>
+              <div class="header__form__drop__block">
+                <p>MEN</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Tees/Tank tops</a></li>
+                  <li><a href="#">Shirts/Polos</a></li>
+                  <li><a href="#">Sweaters</a></li>
+                  <li><a href="#">Sweatshirts/Hoodies</a></li>
+                  <li><a href="#">Blazers</a></li>
+                  <li><a href="#">Jackets/vests</a></li>
+                </ul>
               </div>
             </div>
           </div>
+          <input type="search" class="header__form__search" placeholder="Search for Item...">
+          <a href="#" class="header__form__search__btn"><img src="../src/assets/img/search_header.png" alt="img"></a>
+        </form>
+      </div>
+      <div class="header__right">
+                <div class="cart">
+                  <a href="#" class="cart__img">
+                    <img src="../src/assets/img/basket_header.svg" alt="basket">
+                  </a>
+                  <div class="cart__drop">
+                    <div class="cart__drop__product">
+                      <a href="single%20page.html"><img src="../src/assets/img/basket_drop_img1.jpg" alt="img"></a>
+                      <div class="cart__drop__product__text"> <a href="single%20page.html">Rebox Zane</a> <img src="../src/assets/img/basket_drop_rating.png" alt="img">
+                        <p>1 x $250</p>
+                      </div><a href="#" class="cart__drop__i"><i class="far fa-times-circle"></i></a>
+                    </div>
+                    <div class="cart__drop__product">
+                      <a href="single%20page.html"><img src="../src/assets/img/basket_drop_img1.jpg" alt="img"></a>
+                      <div class="cart__drop__product__text"> <a href="single%20page.html">Rebox Zane</a> <img src="../src/assets/img/basket_drop_rating.png" alt="img">
+                        <p>1 x $250</p>
+                      </div> <a href="#" class="cart__drop__i"><i class="far fa-times-circle"></i></a> </div>
+
+                    <div class="cart__drop__total">
+                      <p>TOTAL</p>
+                      <p>$500.00</p>
+                    </div>
+                    <div class="cart__drop__btn__block">
+                      <a href="#" class="cart__drop__btn">
+                        Checkout
+                      </a>
+                      <a href="cart.html" class="cart__drop__btn">
+                        Go to cart
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="account">
+                  <span>My Account</span>
+                  <i class="fas fa-sort-down account__arrow"></i>
+                </a>
+              </div>
+    </div>
+  </header>
+  <nav class="menu">
+    <div class="menu__content container">
+      <ul class="menu__ul">
+        <li class="menu__li">
+          <a href="#">Home</a>
+          <div class="menu__mega">
+            <div class="menu__mega__col">
+              <div class="header__form__drop__block menu__mega__block">
+                <p>Women</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                  <li><a href="#">Jackets/Coats</a></li>
+                  <li><a href="#">Blazers</a></li>
+                  <li><a href="#">Denim</a></li>
+                  <li><a href="#">Leggings/Pants</a></li>
+                  <li><a href="#">Skirts/Shorts</a></li>
+                  <li><a href="#">Accessories </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu__mega__col">
+              <div class="header__form__drop__block menu__mega__block">
+                <p>Women</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                  <li><a href="#">Jackets/Coats</a></li>
+                </ul>
+              </div>
+              <div class="header__form__drop__block menu__mega__block">
+                <p>Women</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="menu__mega__col">
+              <div class="header__form__drop__block menu__mega__block">
+                <p>Women</p>
+                <ul class="header__form__drop__menu">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Sweaters/Knits</a></li>
+                  <li><a href="#">Jackets/Coats</a></li>
+                </ul>
+              </div>
+              <div class="menu__mega__promo">
+                <img src="../src/assets/img/drop_img.jpg" alt="">
+              </div>
+            </div>
+
+          </div>
+        </li>
+        <li class="menu__li">
+          <a href="#">Man</a>
+        </li>
+        <li class="menu__li">
+          <a href="#">Women</a>
+        </li>
+        <li class="menu__li">
+          <a href="#">Kids</a>
+        </li>
+        <li class="menu__li">
+          <a href="#">Accoseriese</a>
+        </li>
+        <li class="menu__li">
+          <a href="#">Featured</a>
+        </li>
+        <li class="menu__li">
+          <a href="#">Hot Deals</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="block1">
+    <div class="block1__content container">
+      <div class="block1__content__left">
+        <div class="block1__logo">
+          <div class="block1__hr">
+
+          </div>
+          <div class="block1__text">
+            <p class="block1__text__big">THE BRAND</p>
+            <p class="block1__text__small">OF LUXERIOUS<span class="block1__text__color"> FASHION</span></p>
+          </div>
         </div>
       </div>
-      <div class="menu container">
+      <div class="block1__content__right">
 
       </div>
-    </header>
+    </div>
+  </div>
 
 <!--    <div id="app"></div>-->
     <!-- built files will be auto injected -->
